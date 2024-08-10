@@ -70,10 +70,18 @@ function Navbar() {
             p={3}
           >
             <Box>
-              <Link px={4} _hover={{ textDecoration: "none" }}>
+              <Link
+                px={4}
+                _hover={{ textDecoration: "none" }}
+                onClick={homeNav}
+              >
                 home
               </Link>
-              <Link px={4} _hover={{ textDecoration: "none" }}>
+              <Link
+                px={4}
+                _hover={{ textDecoration: "none" }}
+                onClick={projectsNav}
+              >
                 projects
               </Link>
             </Box>

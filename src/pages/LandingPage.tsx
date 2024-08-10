@@ -46,7 +46,7 @@ const Main = () => {
                     fiveable
                   </a>
                 </Button>
-                as a "cram" slide designer currently, i'm building benkyoo, a
+                as a "cram" slide designer. currently, i'm building benkyoo, a
                 platform for students to share their class-notes and study
                 guides. i recently went to san francisco, california, to
                 <Button size={"xs"} mx={1} px={2} display={"inline"}>
@@ -74,7 +74,6 @@ const Main = () => {
                 templateRows={"auto auto auto"} // Two rows with automatic height based on content
                 gap={"10px"} // Space between items
                 w={"100%"} // Full width of parent
-                h={"100%"} // Full height of parent
                 templateAreas={`
                   "img1 img2"
                   "img1 img4"
@@ -86,8 +85,8 @@ const Main = () => {
                   <Image
                     src={"/pic1.png"}
                     objectFit={"cover"}
-                    h={"100%"}
                     borderRadius={10}
+                    h={"100%"}
                   />
                 </Box>
                 <Box gridArea={"img2"}>
@@ -115,13 +114,17 @@ const Main = () => {
                 designer. i have worked as an IT technician at bergenfield high
                 school and for{" "}
                 <Button size={"xs"} mr={1} px={2} display={"inline"}>
-                  fiveable
+                  <a href="https://fiveable.me/" target="_blank">
+                    fiveable
+                  </a>
                 </Button>
-                as a "cram" slide designer currently, i'm building benkyoo, a
+                as a "cram" slide designer. currently, i'm building benkyoo, a
                 platform for students to share their class-notes and study
                 guides. i recently went to san francisco, california, to
                 <Button size={"xs"} mx={1} px={2} display={"inline"}>
-                  buildspace
+                  <a href="https://buildspace.so/" target="_blank">
+                    buildspace
+                  </a>
                 </Button>
                 irl, to work on and showcase my project.
               </Text>
@@ -141,7 +144,6 @@ const Main = () => {
                 templateRows={"auto auto auto"} // Two rows with automatic height based on content
                 gap={"10px"} // Space between items
                 w={"100%"} // Full width of parent
-                h={"100%"} // Full height of parent
                 templateAreas={`
                   "img1 img2"
                   "img1 img4"
@@ -153,8 +155,8 @@ const Main = () => {
                   <Image
                     src={"/pic1.png"}
                     objectFit={"cover"}
-                    h={"100%"}
                     borderRadius={10}
+                    h={"100%"}
                   />
                 </Box>
                 <Box gridArea={"img2"}>
