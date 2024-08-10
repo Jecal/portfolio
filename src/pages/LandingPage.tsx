@@ -87,6 +87,7 @@ const Main = () => {
                     borderRadius={10}
                     objectFit={"cover"}
                     h={"100%"}
+                    maxH={"60vh"}
                   />
                 </GridItem>
                 <GridItem area={"img2"}>
@@ -156,6 +157,7 @@ const Main = () => {
                     borderRadius={10}
                     objectFit={"cover"}
                     h={"100%"}
+                    maxH={"60vh"}
                   />
                 </GridItem>
                 <GridItem area={"img2"}>
