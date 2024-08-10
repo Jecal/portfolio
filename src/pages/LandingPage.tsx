@@ -156,8 +156,7 @@ const Main = () => {
                     src={"/pic1.png"}
                     borderRadius={10}
                     objectFit={"cover"}
-                    h={"100%"}
-                    maxH={"60vh"}
+                    boxSize={"100%"}
                   />
                 </GridItem>
                 <GridItem area={"img2"}>
