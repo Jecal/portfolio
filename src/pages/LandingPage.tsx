@@ -15,6 +15,7 @@ import {
   AlertIcon,
   AlertTitle,
   AlertDescription,
+  GridItem,
 } from "@chakra-ui/react";
 
 function Landing() {
@@ -80,23 +81,23 @@ const Main = () => {
                   "img3 img4"
                 `}
               >
-                <Box gridArea={"img1"}>
+                <GridItem area={"img1"}>
                   <Image
                     src={"/pic1.png"}
-                    objectFit={"cover"}
                     borderRadius={10}
+                    objectFit={"cover"}
                     h={"100%"}
                   />
-                </Box>
-                <Box gridArea={"img2"}>
+                </GridItem>
+                <GridItem area={"img2"}>
                   <Image src={"/pic2.png"} borderRadius={10} />
-                </Box>
-                <Box gridArea={"img3"}>
+                </GridItem>
+                <GridItem area={"img3"}>
                   <Image src={"/pic3.png"} borderRadius={10} />
-                </Box>
-                <Box gridArea={"img4"}>
+                </GridItem>
+                <GridItem area={"img4"}>
                   <Image src={"/pic4.png"} borderRadius={10} />
-                </Box>
+                </GridItem>
               </Grid>
             </Box>
           </Flex>
@@ -149,23 +150,23 @@ const Main = () => {
                   "img3 img4"
                 `}
               >
-                <Box gridArea={"img1"}>
+                <GridItem area={"img1"}>
                   <Image
                     src={"/pic1.png"}
-                    objectFit={"cover"}
                     borderRadius={10}
+                    objectFit={"cover"}
                     h={"100%"}
                   />
-                </Box>
-                <Box gridArea={"img2"}>
+                </GridItem>
+                <GridItem area={"img2"}>
                   <Image src={"/pic2.png"} borderRadius={10} />
-                </Box>
-                <Box gridArea={"img3"}>
+                </GridItem>
+                <GridItem area={"img3"}>
                   <Image src={"/pic3.png"} borderRadius={10} />
-                </Box>
-                <Box gridArea={"img4"}>
+                </GridItem>
+                <GridItem area={"img4"}>
                   <Image src={"/pic4.png"} borderRadius={10} />
-                </Box>
+                </GridItem>
               </Grid>
             </Box>
           </Flex>
