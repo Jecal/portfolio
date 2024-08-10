@@ -78,7 +78,6 @@ const Main = () => {
                   "img1 img2"
                   "img1 img4"
                   "img3 img4"
-                  "img3 img4"
                 `}
               >
                 <Box gridArea={"img1"}>
@@ -147,7 +146,6 @@ const Main = () => {
                 templateAreas={`
                   "img1 img2"
                   "img1 img4"
-                  "img3 img4"
                   "img3 img4"
                 `}
               >
