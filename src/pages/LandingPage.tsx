@@ -16,7 +16,13 @@ import {
   AlertTitle,
   AlertDescription,
   GridItem,
+  useColorMode,
+  Link,
+  List,
+  ListItem,
+  ListIcon,
 } from "@chakra-ui/react";
+import { ExternalLinkIcon, SmallAddIcon } from "@chakra-ui/icons";
 
 function Landing() {
   return (
@@ -30,6 +36,8 @@ function Landing() {
 }
 
 const Main = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
+
   return (
     <>
       <Show above="md">
@@ -86,8 +94,7 @@ const Main = () => {
                     src={"/pic1.png"}
                     borderRadius={10}
                     objectFit={"cover"}
-                    h={"100%"}
-                    maxH={"60vh"}
+                    boxSize={"100%"}
                   />
                 </GridItem>
                 <GridItem area={"img2"}>
@@ -101,9 +108,62 @@ const Main = () => {
                 </GridItem>
               </Grid>
             </Box>
+            <Box my={4}>
+              {/* socials */}
+              <Box
+                borderWidth={1}
+                borderRadius={10}
+                p={4}
+                mb={4}
+                bg={colorMode === "light" ? "gray.50" : "#292929"}
+              >
+                <Link href={"https://www.instagram.com/jecalll/"} isExternal>
+                  my insta
+                  <ExternalLinkIcon mx={2} />
+                </Link>
+              </Box>
+              <Box
+                borderWidth={1}
+                borderRadius={10}
+                p={4}
+                mt={4}
+                bg={colorMode === "light" ? "gray.50" : "#292929"}
+              >
+                <Link href={"https://x.com/jecalll"} isExternal>
+                  my twitter / x
+                  <ExternalLinkIcon mx={2} />
+                </Link>
+              </Box>
+            </Box>
+            <Box my={4}>
+              {/* extra skills */}
+              <Heading as="h3" size="md">
+                all possibly profitable skills
+              </Heading>
+              <List spacing={2} my={2}>
+                <ListItem>
+                  <ListIcon as={SmallAddIcon} />
+                  graphic design: illustrator / photoshop
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={SmallAddIcon} />
+                  video editing: premiere pro
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={SmallAddIcon} />
+                  web development: front-end / ui design
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={SmallAddIcon} />
+                  team management: esports
+                </ListItem>
+              </List>
+              <Text as="i">linked references to come soon</Text>
+            </Box>
           </Flex>
         </Box>
       </Show>
+      {/* mobile */}
       <Show below="md">
         <Box w={"90%"}>
           <Flex direction={"column"} p={3}>
@@ -169,6 +229,58 @@ const Main = () => {
                   <Image src={"/pic4.png"} borderRadius={10} />
                 </GridItem>
               </Grid>
+            </Box>
+            <Box my={4}>
+              {/* socials */}
+              <Box
+                borderWidth={1}
+                borderRadius={10}
+                p={4}
+                mb={4}
+                bg={colorMode === "light" ? "gray.50" : "#292929"}
+              >
+                <Link href={"https://www.instagram.com/jecalll/"} isExternal>
+                  my insta
+                  <ExternalLinkIcon mx={2} />
+                </Link>
+              </Box>
+              <Box
+                borderWidth={1}
+                borderRadius={10}
+                p={4}
+                mt={4}
+                bg={colorMode === "light" ? "gray.50" : "#292929"}
+              >
+                <Link href={"https://x.com/jecalll"} isExternal>
+                  my twitter / x
+                  <ExternalLinkIcon mx={2} />
+                </Link>
+              </Box>
+            </Box>
+            <Box my={4}>
+              {/* extra skills */}
+              <Heading as="h3" size="md">
+                all possibly profitable skills
+              </Heading>
+              <List spacing={2} my={2}>
+                <ListItem>
+                  <ListIcon as={SmallAddIcon} />
+                  graphic design: illustrator / photoshop
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={SmallAddIcon} />
+                  video editing: premiere pro
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={SmallAddIcon} />
+                  web development: front-end / ui design
+                </ListItem>
+                <ListItem>
+                  <ListIcon as={SmallAddIcon} />
+                  team management: esports
+                </ListItem>
+              </List>
+              <Text as="i">linked references to come soon</Text>
             </Box>
           </Flex>
         </Box>
