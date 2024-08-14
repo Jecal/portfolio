@@ -36,7 +36,7 @@ function Landing() {
 }
 
 const Main = () => {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
 
   return (
     <>
