@@ -47,9 +47,9 @@ const Main = () => {
               {/* header */}
               <Heading mb={4}>hi, i'm jullian</Heading>
               <Text>
-                i'm a self-proclaimed front-end web developer and graphic
-                designer. i have worked as an IT technician at bergenfield high
-                school and for{" "}
+                i'm a 17 yr old self-proclaimed front-end web developer and
+                graphic designer. i go by typo, or typoctave online. i have
+                worked as an IT technician for my highschool and for{" "}
                 <Button size={"xs"} mr={1} px={2} display={"inline"}>
                   <a href="https://fiveable.me/" target="_blank">
                     fiveable
@@ -171,9 +171,9 @@ const Main = () => {
               {/* header */}
               <Heading mb={4}>hi, i'm jullian</Heading>
               <Text>
-                i'm a self-proclaimed front-end web developer and graphic
-                designer. i have worked as an IT technician at bergenfield high
-                school and for{" "}
+                i'm a 17 yr old self-proclaimed front-end web developer and
+                graphic designer. i go by typo, or typoctave online. i have
+                worked as an IT technician for my highschool and for{" "}
                 <Button size={"xs"} mr={1} px={2} display={"inline"}>
                   <a href="https://fiveable.me/" target="_blank">
                     fiveable
