@@ -58,7 +58,7 @@ const Main = () => {
               {/* work */}
               <Alert status="success" borderRadius={10}>
                 <AlertIcon />
-                <AlertTitle>lf job</AlertTitle>
+                <AlertTitle>lf work</AlertTitle>
                 <AlertDescription>
                   graphic design / front-end web dev
                 </AlertDescription>
@@ -171,7 +171,7 @@ const Main = () => {
               {/* work */}
               <Alert status="success" borderRadius={10}>
                 <AlertIcon />
-                <AlertTitle>lf job</AlertTitle>
+                <AlertTitle>lf work</AlertTitle>
                 <AlertDescription>graphic design</AlertDescription>
               </Alert>
             </Box>

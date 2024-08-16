@@ -8,6 +8,7 @@ import theme from "./theme";
 import Error from "./pages/ErrorPage";
 import Landing from "./pages/LandingPage";
 import Projects from "./pages/ProjectsPage";
+import Work from "./pages/WorkPage";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,11 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/work",
+    element: <Work />,
     errorElement: <Error />,
   },
 ]);
