@@ -6,7 +6,6 @@ import {
   Heading,
   Text,
   Box,
-  Button,
   Show,
   Flex,
   Grid,
@@ -47,23 +46,12 @@ const Main = () => {
               {/* header */}
               <Heading mb={4}>hi, i'm jullian</Heading>
               <Text>
-                i'm a 17 yr old self-proclaimed front-end web developer and
-                graphic designer. i go by typo, or typoctave online. i have
-                worked as an IT technician for my highschool and for{" "}
-                <Button size={"xs"} mr={1} px={2} display={"inline"}>
-                  <a href="https://fiveable.me/" target="_blank">
-                    fiveable
-                  </a>
-                </Button>
-                as a "cram" slide designer. currently, i'm building benkyoo, a
-                platform for students to share their class-notes and study
-                guides. i recently went to san francisco, california, to
-                <Button size={"xs"} mx={1} px={2} display={"inline"}>
-                  <a href="https://buildspace.so/" target="_blank">
-                    buildspace
-                  </a>
-                </Button>
-                irl, to work on and showcase my project.
+                i'm a 17 yr old self taught front end dev and graphic designer.
+                i go by typo, or typoctave online. my front end tools include
+                javascript, chakraui, firebase, and vercel. my design tools
+                include illustrator, photoshop, and figma. i'm currently
+                building benkyoo, a webapp for students to share their study
+                guides and class notes.
               </Text>
             </Box>
             <Box my={4}>
@@ -158,7 +146,7 @@ const Main = () => {
                   team management: esports
                 </ListItem>
               </List>
-              <Text as="i">linked references to come soon</Text>
+              <Text as="i">check projects page for references!</Text>
             </Box>
           </Flex>
         </Box>
@@ -171,23 +159,12 @@ const Main = () => {
               {/* header */}
               <Heading mb={4}>hi, i'm jullian</Heading>
               <Text>
-                i'm a 17 yr old self-proclaimed front-end web developer and
-                graphic designer. i go by typo, or typoctave online. i have
-                worked as an IT technician for my highschool and for{" "}
-                <Button size={"xs"} mr={1} px={2} display={"inline"}>
-                  <a href="https://fiveable.me/" target="_blank">
-                    fiveable
-                  </a>
-                </Button>
-                as a "cram" slide designer. currently, i'm building benkyoo, a
-                platform for students to share their class-notes and study
-                guides. i recently went to san francisco, california, to
-                <Button size={"xs"} mx={1} px={2} display={"inline"}>
-                  <a href="https://buildspace.so/" target="_blank">
-                    buildspace
-                  </a>
-                </Button>
-                irl, to work on and showcase my project.
+                i'm a 17 yr old self taught front end dev and graphic designer.
+                i go by typo, or typoctave online. my front end tools include
+                javascript, chakraui, firebase, and vercel. my design tools
+                include illustrator, photoshop, and figma. i'm currently
+                building benkyoo, a webapp for students to share their study
+                guides and class notes.
               </Text>
             </Box>
             <Box my={4}>
@@ -275,12 +252,8 @@ const Main = () => {
                   <ListIcon as={SmallAddIcon} />
                   web development: front-end / ui design
                 </ListItem>
-                <ListItem>
-                  <ListIcon as={SmallAddIcon} />
-                  team management: esports
-                </ListItem>
               </List>
-              <Text as="i">linked references to come soon</Text>
+              <Text as="i">check projects page for references!</Text>
             </Box>
           </Flex>
         </Box>
