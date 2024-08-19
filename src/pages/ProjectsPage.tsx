@@ -11,6 +11,7 @@ import {
   Flex,
   Link,
   Divider,
+  Badge,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
@@ -53,6 +54,17 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         benkyoo
                       </Heading>
+                      <Flex direction={"row"} my={1}>
+                        <Badge colorScheme={"yellow"} mr={2}>
+                          React + Vite
+                        </Badge>
+                        <Badge colorScheme={"blue"} mr={2}>
+                          Chakra
+                        </Badge>
+                        <Badge colorScheme="orange" mr={2}>
+                          Firebase
+                        </Badge>
+                      </Flex>
                       <Text maxW={"lg"}>
                         this is a webapp for students to share their class notes
                         and study guides. made during buildspace n&w s5!
@@ -79,6 +91,17 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         bchat
                       </Heading>
+                      <Flex direction={"row"} my={1}>
+                        <Badge colorScheme={"blue"} mr={2}>
+                          React
+                        </Badge>
+                        <Badge colorScheme={"purple"} mr={2}>
+                          Bootstrap
+                        </Badge>
+                        <Badge colorScheme="orange" mr={2}>
+                          Firebase
+                        </Badge>
+                      </Flex>
                       <Text maxW={"lg"}>
                         this is a webapp i made to learn how to work with front
                         end styling kits and google firebase. first web dev
@@ -105,6 +128,11 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         bears esports ad
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="red" mr={2}>
+                          Illustrator
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         these are some posters i made for the esports club at my
                         hs to advertise the next running year, and how we're
@@ -145,6 +173,11 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         bears esports player banner
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="blue" mr={2}>
+                          Photoshop
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         this was a example player banner i made for my hs
                         esports club. i used a picture of faker bc we didn't
@@ -175,6 +208,11 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         waters of kanagawa
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="blue" mr={2}>
+                          Photoshop
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         poster i made to learn some basic photoshop skills.
                       </Text>
@@ -210,6 +248,14 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         benkyoo demo vid
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="green" mr={2}>
+                          Video
+                        </Badge>
+                        <Badge colorScheme="pink" mr={2}>
+                          Premiere Pro
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         i made this video during buildspace's nights and
                         weekends s5 on week 6, in order to demo my product,
@@ -251,6 +297,14 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         benkyoo insta reels
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="red" mr={2}>
+                          Reel
+                        </Badge>
+                        <Badge colorScheme="pink" mr={2}>
+                          Premiere Pro
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"} mb={2}>
                         i made a few reels to advertise benkyoo and a survey.
                         you can click the image to go to my most popular reel.
@@ -299,6 +353,17 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         benkyoo
                       </Heading>
+                      <Flex direction={"row"} my={1}>
+                        <Badge colorScheme={"yellow"} mr={2}>
+                          React + Vite
+                        </Badge>
+                        <Badge colorScheme={"blue"} mr={2}>
+                          Chakra
+                        </Badge>
+                        <Badge colorScheme="orange" mr={2}>
+                          Firebase
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         this is a webapp for students to share their class notes
                         and study guides. made during buildspace n&w s5!
@@ -327,8 +392,19 @@ const Main = () => {
                   <Flex direction={"column"}>
                     <Box mb={2}>
                       <Heading as="h2" fontSize={"2xl"}>
-                        benkyoo
+                        bchat
                       </Heading>
+                      <Flex direction={"row"} my={1}>
+                        <Badge colorScheme={"blue"} mr={2}>
+                          React
+                        </Badge>
+                        <Badge colorScheme={"purple"} mr={2}>
+                          Bootstrap
+                        </Badge>
+                        <Badge colorScheme="orange" mr={2}>
+                          Firebase
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         this is a webapp i made to learn how to work with front
                         end styling kits and google firebase. first web dev
@@ -365,6 +441,11 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         bears esports ad
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="red" mr={2}>
+                          Illustrator
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         these are some posters i made for the esports club at my
                         hs to advertise the next running year, and how we're
@@ -403,6 +484,11 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         bears esports player banner
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="blue" mr={2}>
+                          Photoshop
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         this was a example player banner i made for my hs
                         esports club. i used a picture of faker bc we didn't
@@ -433,6 +519,11 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         waters of kanagawa
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="blue" mr={2}>
+                          Photoshop
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         poster i made to learn some basic photoshop skills.
                       </Text>
@@ -468,6 +559,14 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         benkyoo demo vid
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="green" mr={2}>
+                          Video
+                        </Badge>
+                        <Badge colorScheme="pink" mr={2}>
+                          Premiere Pro
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"}>
                         i made this video during buildspace's nights and
                         weekends s5 on week 6, in order to demo my product,
@@ -509,6 +608,14 @@ const Main = () => {
                       <Heading as="h2" fontSize={"2xl"}>
                         benkyoo insta reels
                       </Heading>
+                      <Flex direction={"row"} my={2}>
+                        <Badge colorScheme="red" mr={2}>
+                          Reel
+                        </Badge>
+                        <Badge colorScheme="pink" mr={2}>
+                          Premiere Pro
+                        </Badge>
+                      </Flex>
                       <Text maxW={"full"} mb={2}>
                         i made a few reels to advertise benkyoo and a survey.
                         you can click the image to go to my most popular reel.

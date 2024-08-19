@@ -72,7 +72,7 @@ function Navbar() {
         </Box>
       </Show>
       <Show below="md">
-        <Box w={"90%"}>
+        <Box w={"100%"}>
           <Flex
             direction={"row"}
             alignItems={"center"}
