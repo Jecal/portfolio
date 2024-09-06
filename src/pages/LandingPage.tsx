@@ -37,6 +37,20 @@ function Landing() {
 const Main = () => {
   const { colorMode } = useColorMode();
 
+  const property = {
+    paragraph: `i'm a 17 yr old self taught front end dev and graphic designer. currently, i'm in highschool on a tech apprenticeship. i've made projects with vite, javascript, chakraui, and vercel for hosting. 
+                my design tools
+                include illustrator, photoshop, and figma. i'm currently
+                building benkyoo, a webapp for students to share their study
+                guides and class notes. if looking for contact, please message me on insta, link found at the bottom of this page.`,
+    job: `graphic design / front-end`,
+    skills: {
+      design: "graphic design: illustrator / photoshop",
+      editing: "video editing: premiere pro",
+      development: "web development: front-end / ui design",
+    },
+  };
+
   return (
     <>
       <Show above="md">
@@ -45,23 +59,14 @@ const Main = () => {
             <Box mb={4}>
               {/* header */}
               <Heading mb={4}>hi, i'm jullian</Heading>
-              <Text>
-                i'm a 17 yr old self taught front end dev and graphic designer.
-                i go by typo, or typoctave online. my front end tools include
-                javascript, chakraui, firebase, and vercel. my design tools
-                include illustrator, photoshop, and figma. i'm currently
-                building benkyoo, a webapp for students to share their study
-                guides and class notes.
-              </Text>
+              <Text>{property.paragraph}</Text>
             </Box>
             <Box my={4}>
               {/* work */}
               <Alert status="success" borderRadius={10}>
                 <AlertIcon />
                 <AlertTitle>lf work</AlertTitle>
-                <AlertDescription>
-                  graphic design / front-end web dev
-                </AlertDescription>
+                <AlertDescription>{property.job}</AlertDescription>
               </Alert>
             </Box>
             <Box my={4}>
@@ -131,19 +136,15 @@ const Main = () => {
               <List spacing={2} my={2}>
                 <ListItem>
                   <ListIcon as={SmallAddIcon} />
-                  graphic design: illustrator / photoshop
+                  {property.skills.design}
                 </ListItem>
                 <ListItem>
                   <ListIcon as={SmallAddIcon} />
-                  video editing: premiere pro
+                  {property.skills.editing}
                 </ListItem>
                 <ListItem>
                   <ListIcon as={SmallAddIcon} />
-                  web development: front-end / ui design
-                </ListItem>
-                <ListItem>
-                  <ListIcon as={SmallAddIcon} />
-                  team management: esports
+                  {property.skills.development}
                 </ListItem>
               </List>
               <Text as="i">check projects page for references!</Text>
@@ -158,21 +159,14 @@ const Main = () => {
             <Box mb={4}>
               {/* header */}
               <Heading mb={4}>hi, i'm jullian</Heading>
-              <Text>
-                i'm a 17 yr old self taught front end dev and graphic designer.
-                i go by typo, or typoctave online. my front end tools include
-                javascript, chakraui, firebase, and vercel. my design tools
-                include illustrator, photoshop, and figma. i'm currently
-                building benkyoo, a webapp for students to share their study
-                guides and class notes.
-              </Text>
+              <Text>{property.paragraph}</Text>
             </Box>
             <Box my={4}>
               {/* work */}
               <Alert status="success" borderRadius={10}>
                 <AlertIcon />
                 <AlertTitle>lf work</AlertTitle>
-                <AlertDescription>graphic design</AlertDescription>
+                <AlertDescription>{property.job}</AlertDescription>
               </Alert>
             </Box>
             <Box my={4}>
@@ -242,15 +236,15 @@ const Main = () => {
               <List spacing={2} my={2}>
                 <ListItem>
                   <ListIcon as={SmallAddIcon} />
-                  graphic design: illustrator / photoshop
+                  {property.skills.design}
                 </ListItem>
                 <ListItem>
                   <ListIcon as={SmallAddIcon} />
-                  video editing: premiere pro
+                  {property.skills.editing}
                 </ListItem>
                 <ListItem>
                   <ListIcon as={SmallAddIcon} />
-                  web development: front-end / ui design
+                  {property.skills.development}
                 </ListItem>
               </List>
               <Text as="i">check projects page for references!</Text>
