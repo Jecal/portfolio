@@ -188,16 +188,17 @@ const Main = () => {
                     borderRadius={10}
                     objectFit={"cover"}
                     boxSize={"100%"}
+                    loading="lazy"
                   />
                 </GridItem>
                 <GridItem area={"img2"}>
-                  <Image src={"/pic2.png"} borderRadius={10} />
+                  <Image loading="lazy" src={"/pic2.png"} borderRadius={10} />
                 </GridItem>
                 <GridItem area={"img3"}>
-                  <Image src={"/pic3.png"} borderRadius={10} />
+                  <Image loading="lazy" src={"/pic3.png"} borderRadius={10} />
                 </GridItem>
                 <GridItem area={"img4"}>
-                  <Image src={"/pic4.png"} borderRadius={10} />
+                  <Image loading="lazy" src={"/pic4.png"} borderRadius={10} />
                 </GridItem>
               </Grid>
             </Box>

@@ -28,6 +28,9 @@ function Navbar() {
   const workNav = () => {
     navigate("/work");
   };
+  const designNav = () => {
+    navigate("/design");
+  };
 
   return (
     <>
@@ -50,16 +53,24 @@ function Navbar() {
               <Link
                 px={4}
                 _hover={{ textDecoration: "none" }}
+                onClick={designNav}
+              >
+                design
+              </Link>
+              <Link
+                px={4}
+                _hover={{ textDecoration: "none" }}
                 onClick={projectsNav}
               >
                 projects
               </Link>
+
               <Link
                 px={4}
                 _hover={{ textDecoration: "none" }}
                 onClick={workNav}
               >
-                work
+                experience
               </Link>
             </Box>
             <IconButton
@@ -97,9 +108,16 @@ function Navbar() {
               <Link
                 px={4}
                 _hover={{ textDecoration: "none" }}
+                onClick={designNav}
+              >
+                design
+              </Link>
+              <Link
+                px={4}
+                _hover={{ textDecoration: "none" }}
                 onClick={workNav}
               >
-                work
+                experience
               </Link>
             </Box>
             <IconButton

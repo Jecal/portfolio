@@ -8,6 +8,7 @@ import theme from "./theme";
 import Landing from "./pages/LandingPage";
 import Projects from "./pages/ProjectsPage";
 import Work from "./pages/WorkPage";
+import Design from "./pages/DesignPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/design" element={<Design />} />
         </Router>
       </ChakraProvider>
     </>
